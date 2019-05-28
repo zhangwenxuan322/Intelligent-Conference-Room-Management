@@ -1,0 +1,6 @@
+framework module arcsoft_fsdk_age_estimation {
+  umbrella header "arcsoft_fsdk_age_estimation.h"
+
+  export *
+  module * { export * }
+}

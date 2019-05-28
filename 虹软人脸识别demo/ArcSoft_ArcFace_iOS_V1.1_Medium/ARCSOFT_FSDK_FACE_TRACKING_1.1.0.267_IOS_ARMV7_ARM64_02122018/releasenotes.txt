@@ -1,0 +1,45 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Face Tracking Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Face Tracking Library provides the universal interfaces to detect and track face.
+
+Publish date:
+10/12/2017
+
+
+Version:
+1.1.0.267
+
+
+Supported platform:
+IOS_ARMV7,IOS_ARM64
+
+Compile Options:
+Enable Bitcode=No
+
+Dependency:
+platform
+
+Known issues:
+None
+
+File List:
+|---arcsoft_fsdk_base.framework			       	SDK base dynamic library framework
+|---arcsoft_fsdk_face_tracking.framework	       	SDK dynamic library framework for face tracking
+|---doc
+|   |---ARCSOFT_FACETRACKING_DEVELOPER'S_GUIDE.PDF 	Developer's user guide document
+|---platform
+|   |---inc
+|   |    |---amcomdef.h                                 Head file for platform type definition               
+|   |    |---ammem.h                                    Header file for platform memory management
+|   |    |---asvloffscreen.h                            Header file for image format definition
+|   |    |---merror.h                                   Header file for error definition
+|---samplecode
+|   |---face_tracking_samplecode.cpp                    Sample codes
+|---releasenotes.txt                                    This file.
+
+Change Logs:
+1.0.0.250--Initial version
+1.0.0.253--Extract SDK common functions to libarcsoft_fsdk_base.a

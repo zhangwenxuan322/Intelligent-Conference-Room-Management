@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490A4FBF21B506E4004836D3 /* SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A4FBE21B506E4004836D3 /* SignInVC.m */; };
+		490A4FC521B509A9004836D3 /* SignInNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A4FC421B509A9004836D3 /* SignInNav.m */; };
+		4935F7512235EF2200544CB1 /* SetUserNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4935F7502235EF2200544CB1 /* SetUserNameVC.m */; };
+		4937812F21F8410500E52F52 /* YCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4937812E21F8410500E52F52 /* YCPickerView.m */; };
+		4937813321F84D6B00E52F52 /* DataPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4937813221F84D6B00E52F52 /* DataPickerView.m */; };
+		49402CE421BD02A0004F9CCE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49402CE321BD02A0004F9CCE /* MyCell.m */; };
+		4946214B2249C8C500F0899B /* MeetingDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946214A2249C8C500F0899B /* MeetingDetailVC.m */; };
+		4946214E2249CEEE00F0899B /* ManageMeetingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946214D2249CEEE00F0899B /* ManageMeetingVC.m */; };
+		494621512249D2A900F0899B /* ManageDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621502249D2A900F0899B /* ManageDetailsVC.m */; };
+		494621842249D8A500F0899B /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621642249D8A500F0899B /* FSCalendarCollectionView.m */; };
+		494621852249D8A500F0899B /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621672249D8A500F0899B /* FSCalendarDelegationProxy.m */; };
+		494621862249D8A500F0899B /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621692249D8A500F0899B /* FSCalendarDelegationFactory.m */; };
+		494621872249D8A500F0899B /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621702249D8A500F0899B /* FSCalendarCell.m */; };
+		494621882249D8A500F0899B /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621712249D8A500F0899B /* FSCalendarStickyHeader.m */; };
+		494621892249D8A500F0899B /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621722249D8A500F0899B /* FSCalendar.m */; };
+		4946218A2249D8A500F0899B /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621732249D8A500F0899B /* FSCalendarCollectionViewLayout.m */; };
+		4946218B2249D8A500F0899B /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621742249D8A500F0899B /* FSCalendarWeekdayView.m */; };
+		4946218C2249D8A500F0899B /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621772249D8A500F0899B /* FSCalendarSeparatorDecorationView.m */; };
+		4946218D2249D8A500F0899B /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621792249D8A500F0899B /* FSCalendarExtensions.m */; };
+		4946218E2249D8A500F0899B /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946217B2249D8A500F0899B /* FSCalendarConstants.m */; };
+		4946218F2249D8A500F0899B /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946217C2249D8A500F0899B /* FSCalendarCalculator.m */; };
+		494621902249D8A500F0899B /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946217D2249D8A500F0899B /* FSCalendarHeaderView.m */; };
+		494621912249D8A500F0899B /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621812249D8A500F0899B /* FSCalendarTransitionCoordinator.m */; };
+		494621932249D8A500F0899B /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621832249D8A500F0899B /* FSCalendarAppearance.m */; };
+		494621962249D90400F0899B /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 494621952249D90400F0899B /* CalendarVC.m */; };
+		494B07E72248763000F5A7F5 /* MultiBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B07D92248763000F5A7F5 /* MultiBaseView.m */; };
+		494B07E82248763000F5A7F5 /* MultiSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494B07DB2248763000F5A7F5 /* MultiSelectCell.xib */; };
+		494B07E92248763000F5A7F5 /* MultiSelectHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B07DC2248763000F5A7F5 /* MultiSelectHeaderView.m */; };
+		494B07EA2248763000F5A7F5 /* MultiSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B07DD2248763000F5A7F5 /* MultiSelectCell.m */; };
+		494B07EB2248763000F5A7F5 /* MultiSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B07DE2248763000F5A7F5 /* MultiSelectView.m */; };
+		494B07EC2248763000F5A7F5 /* cell_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494B07E02248763000F5A7F5 /* cell_selected@3x.png */; };
+		494B07ED2248763000F5A7F5 /* cell_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494B07E12248763000F5A7F5 /* cell_selected@2x.png */; };
+		494B07EE2248763000F5A7F5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B07E52248763000F5A7F5 /* UIView+Extension.m */; };
+		494E045721FEFA1500CD1E6E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E044D21FEFA1500CD1E6E /* AFURLResponseSerialization.m */; };
+		494E045821FEFA1500CD1E6E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E044E21FEFA1500CD1E6E /* AFHTTPSessionManager.m */; };
+		494E045921FEFA1500CD1E6E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E045021FEFA1500CD1E6E /* AFURLSessionManager.m */; };
+		494E045A21FEFA1500CD1E6E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E045121FEFA1500CD1E6E /* AFURLRequestSerialization.m */; };
+		494E045B21FEFA1500CD1E6E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E045321FEFA1500CD1E6E /* AFNetworkReachabilityManager.m */; };
+		494E045C21FEFA1500CD1E6E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E045421FEFA1500CD1E6E /* AFSecurityPolicy.m */; };
+		4959051121F04FD2009B2F9C /* VerificationCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959051021F04FD2009B2F9C /* VerificationCodeVC.m */; };
+		4959051421F05D48009B2F9C /* VerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959051321F05D48009B2F9C /* VerificationCodeView.m */; };
+		4959051821F06B7D009B2F9C /* PersonalInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4959051721F06B7D009B2F9C /* PersonalInfoVC.m */; };
+		495CF06E224901AE00D80204 /* ChooseRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495CF06D224901AE00D80204 /* ChooseRoomVC.m */; };
+		496978F7224A124800B3DAE2 /* MeetingRecodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 496978F6224A124800B3DAE2 /* MeetingRecodVC.m */; };
+		49753B8D21F1D2C0003ACE0C /* SetPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49753B8C21F1D2C0003ACE0C /* SetPasswordVC.m */; };
+		4990B7B821BB4A9100041205 /* ForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7B721BB4A9100041205 /* ForgetPwdVC.m */; };
+		4990B7BB21BB4AAA00041205 /* ForgetPwdNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7BA21BB4AAA00041205 /* ForgetPwdNav.m */; };
+		4990B7C221BB4F0000041205 /* ReserveTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7C121BB4F0000041205 /* ReserveTabbarController.m */; };
+		4990B7C521BB591200041205 /* MeetingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7C421BB591200041205 /* MeetingVC.m */; };
+		4990B7C821BB591F00041205 /* ReserveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7C721BB591F00041205 /* ReserveVC.m */; };
+		4990B7CB21BB592D00041205 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4990B7CA21BB592D00041205 /* MyVC.m */; };
+		4994D53121F0A82B006F4C16 /* NoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994D53021F0A82B006F4C16 /* NoteVC.m */; };
+		49A3BDCF21B235BB00123F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3BDCE21B235BB00123F30 /* AppDelegate.m */; };
+		49A3BDD521B235BB00123F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A3BDD321B235BB00123F30 /* Main.storyboard */; };
+		49A3BDD721B235BD00123F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A3BDD621B235BD00123F30 /* Assets.xcassets */; };
+		49A3BDDA21B235BD00123F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A3BDD821B235BD00123F30 /* LaunchScreen.storyboard */; };
+		49A3BDDD21B235BD00123F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3BDDC21B235BD00123F30 /* main.m */; };
+		49A3BDE721B235BD00123F30 /* meetingroom_reserve_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3BDE621B235BD00123F30 /* meetingroom_reserve_iOSTests.m */; };
+		49A3BDF221B235BD00123F30 /* meetingroom_reserve_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3BDF121B235BD00123F30 /* meetingroom_reserve_iOSUITests.m */; };
+		49A3BE0221B25B3500123F30 /* LogInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3BE0121B25B3500123F30 /* LogInVC.m */; };
+		49A94B1621F0B0B600DA1594 /* CardsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A94B1521F0B0B600DA1594 /* CardsVC.m */; };
+		49A94B1921F0B0C400DA1594 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A94B1821F0B0C400DA1594 /* SettingsVC.m */; };
+		49B1630C2249B7EE00D8FA72 /* MyReserveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1630B2249B7EE00D8FA72 /* MyReserveVC.m */; };
+		49B1630F2249C3CB00D8FA72 /* SignInOnceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1630E2249C3CB00D8FA72 /* SignInOnceVC.m */; };
+		49B4CBDD21B26AD000CD9591 /* UIImage+XG.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4CBDC21B26AD000CD9591 /* UIImage+XG.m */; };
+		49C7A24321FAE49E00C7CEBF /* PrivacyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7A24221FAE49E00C7CEBF /* PrivacyVC.m */; };
+		49C7A24621FAE5C500C7CEBF /* GenralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7A24521FAE5C500C7CEBF /* GenralVC.m */; };
+		49C7A24921FAE5D400C7CEBF /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C7A24821FAE5D400C7CEBF /* AboutVC.m */; };
+		49D13E3622460FCB00EAF8AB /* DoReserveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D13E3522460FCB00EAF8AB /* DoReserveVC.m */; };
+		49D13E3922462A0700EAF8AB /* CheckReserveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D13E3822462A0700EAF8AB /* CheckReserveVC.m */; };
+		49D58F0D21F6E8A300E0B714 /* SelectPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D58F0C21F6E8A300E0B714 /* SelectPhotoManager.m */; };
+		49DB0C942235542A006FE2EB /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0C8A22355429006FE2EB /* SVRadialGradientLayer.m */; };
+		49DB0C952235542A006FE2EB /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0C8D22355429006FE2EB /* SVProgressAnimatedView.m */; };
+		49DB0C962235542A006FE2EB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0C9022355429006FE2EB /* SVProgressHUD.m */; };
+		49DB0C972235542A006FE2EB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0C9122355429006FE2EB /* SVIndefiniteAnimatedView.m */; };
+		49DB0C982235542A006FE2EB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49DB0C9222355429006FE2EB /* SVProgressHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49A3BDE321B235BD00123F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A3BDC221B235BB00123F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A3BDC921B235BB00123F30;
+			remoteInfo = meetingroom_reserve_iOS;
+		};
+		49A3BDEE21B235BD00123F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49A3BDC221B235BB00123F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A3BDC921B235BB00123F30;
+			remoteInfo = meetingroom_reserve_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490A4FBD21B506E4004836D3 /* SignInVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInVC.h; sourceTree = "<group>"; };
+		490A4FBE21B506E4004836D3 /* SignInVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInVC.m; sourceTree = "<group>"; };
+		490A4FC321B509A9004836D3 /* SignInNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInNav.h; sourceTree = "<group>"; };
+		490A4FC421B509A9004836D3 /* SignInNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInNav.m; sourceTree = "<group>"; };
+		4935F74F2235EF2200544CB1 /* SetUserNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetUserNameVC.h; sourceTree = "<group>"; };
+		4935F7502235EF2200544CB1 /* SetUserNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetUserNameVC.m; sourceTree = "<group>"; };
+		4937812D21F8410500E52F52 /* YCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCPickerView.h; sourceTree = "<group>"; };
+		4937812E21F8410500E52F52 /* YCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCPickerView.m; sourceTree = "<group>"; };
+		4937813121F84D6B00E52F52 /* DataPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataPickerView.h; sourceTree = "<group>"; };
+		4937813221F84D6B00E52F52 /* DataPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPickerView.m; sourceTree = "<group>"; };
+		49402CE221BD02A0004F9CCE /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		49402CE321BD02A0004F9CCE /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		494621492249C8C500F0899B /* MeetingDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingDetailVC.h; sourceTree = "<group>"; };
+		4946214A2249C8C500F0899B /* MeetingDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingDetailVC.m; sourceTree = "<group>"; };
+		4946214C2249CEEE00F0899B /* ManageMeetingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageMeetingVC.h; sourceTree = "<group>"; };
+		4946214D2249CEEE00F0899B /* ManageMeetingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageMeetingVC.m; sourceTree = "<group>"; };
+		4946214F2249D2A900F0899B /* ManageDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageDetailsVC.h; sourceTree = "<group>"; };
+		494621502249D2A900F0899B /* ManageDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageDetailsVC.m; sourceTree = "<group>"; };
+		494621642249D8A500F0899B /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		494621652249D8A500F0899B /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		494621662249D8A500F0899B /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		494621672249D8A500F0899B /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		494621682249D8A500F0899B /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		494621692249D8A500F0899B /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		4946216A2249D8A500F0899B /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		4946216B2249D8A500F0899B /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		4946216C2249D8A500F0899B /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		4946216D2249D8A500F0899B /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		4946216E2249D8A500F0899B /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		4946216F2249D8A500F0899B /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		494621702249D8A500F0899B /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		494621712249D8A500F0899B /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		494621722249D8A500F0899B /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		494621732249D8A500F0899B /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		494621742249D8A500F0899B /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		494621752249D8A500F0899B /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		494621762249D8A500F0899B /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		494621772249D8A500F0899B /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		494621782249D8A500F0899B /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		494621792249D8A500F0899B /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		4946217A2249D8A500F0899B /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		4946217B2249D8A500F0899B /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		4946217C2249D8A500F0899B /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		4946217D2249D8A500F0899B /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		4946217E2249D8A500F0899B /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		4946217F2249D8A500F0899B /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		494621802249D8A500F0899B /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		494621812249D8A500F0899B /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		494621832249D8A500F0899B /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		494621942249D90400F0899B /* CalendarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarVC.h; sourceTree = "<group>"; };
+		494621952249D90400F0899B /* CalendarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarVC.m; sourceTree = "<group>"; };
+		494B07D92248763000F5A7F5 /* MultiBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiBaseView.m; sourceTree = "<group>"; };
+		494B07DA2248763000F5A7F5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		494B07DB2248763000F5A7F5 /* MultiSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiSelectCell.xib; sourceTree = "<group>"; };
+		494B07DC2248763000F5A7F5 /* MultiSelectHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectHeaderView.m; sourceTree = "<group>"; };
+		494B07DD2248763000F5A7F5 /* MultiSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectCell.m; sourceTree = "<group>"; };
+		494B07DE2248763000F5A7F5 /* MultiSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectView.m; sourceTree = "<group>"; };
+		494B07E02248763000F5A7F5 /* cell_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_selected@3x.png"; sourceTree = "<group>"; };
+		494B07E12248763000F5A7F5 /* cell_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_selected@2x.png"; sourceTree = "<group>"; };
+		494B07E22248763000F5A7F5 /* MultiBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiBaseView.h; sourceTree = "<group>"; };
+		494B07E32248763000F5A7F5 /* MultiSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectCell.h; sourceTree = "<group>"; };
+		494B07E42248763000F5A7F5 /* MultiSelectHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectHeaderView.h; sourceTree = "<group>"; };
+		494B07E52248763000F5A7F5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		494B07E62248763000F5A7F5 /* MultiSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectView.h; sourceTree = "<group>"; };
+		494E044921FEFA1500CD1E6E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		494E044A21FEFA1500CD1E6E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		494E044B21FEFA1500CD1E6E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		494E044C21FEFA1500CD1E6E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		494E044D21FEFA1500CD1E6E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		494E044E21FEFA1500CD1E6E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		494E044F21FEFA1500CD1E6E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		494E045021FEFA1500CD1E6E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		494E045121FEFA1500CD1E6E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		494E045221FEFA1500CD1E6E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		494E045321FEFA1500CD1E6E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		494E045421FEFA1500CD1E6E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		494E045521FEFA1500CD1E6E /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		494E045621FEFA1500CD1E6E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4959050F21F04FD2009B2F9C /* VerificationCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerificationCodeVC.h; sourceTree = "<group>"; };
+		4959051021F04FD2009B2F9C /* VerificationCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeVC.m; sourceTree = "<group>"; };
+		4959051221F05D48009B2F9C /* VerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerificationCodeView.h; sourceTree = "<group>"; };
+		4959051321F05D48009B2F9C /* VerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeView.m; sourceTree = "<group>"; };
+		4959051621F06B7D009B2F9C /* PersonalInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoVC.h; sourceTree = "<group>"; };
+		4959051721F06B7D009B2F9C /* PersonalInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoVC.m; sourceTree = "<group>"; };
+		495CF06C224901AE00D80204 /* ChooseRoomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseRoomVC.h; sourceTree = "<group>"; };
+		495CF06D224901AE00D80204 /* ChooseRoomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseRoomVC.m; sourceTree = "<group>"; };
+		496978F5224A124800B3DAE2 /* MeetingRecodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingRecodVC.h; sourceTree = "<group>"; };
+		496978F6224A124800B3DAE2 /* MeetingRecodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingRecodVC.m; sourceTree = "<group>"; };
+		49753B8B21F1D2C0003ACE0C /* SetPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetPasswordVC.h; sourceTree = "<group>"; };
+		49753B8C21F1D2C0003ACE0C /* SetPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetPasswordVC.m; sourceTree = "<group>"; };
+		4990B7B621BB4A9100041205 /* ForgetPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPwdVC.h; sourceTree = "<group>"; };
+		4990B7B721BB4A9100041205 /* ForgetPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdVC.m; sourceTree = "<group>"; };
+		4990B7B921BB4AAA00041205 /* ForgetPwdNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPwdNav.h; sourceTree = "<group>"; };
+		4990B7BA21BB4AAA00041205 /* ForgetPwdNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdNav.m; sourceTree = "<group>"; };
+		4990B7C021BB4F0000041205 /* ReserveTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReserveTabbarController.h; sourceTree = "<group>"; };
+		4990B7C121BB4F0000041205 /* ReserveTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReserveTabbarController.m; sourceTree = "<group>"; };
+		4990B7C321BB591200041205 /* MeetingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeetingVC.h; sourceTree = "<group>"; };
+		4990B7C421BB591200041205 /* MeetingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingVC.m; sourceTree = "<group>"; };
+		4990B7C621BB591F00041205 /* ReserveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReserveVC.h; sourceTree = "<group>"; };
+		4990B7C721BB591F00041205 /* ReserveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReserveVC.m; sourceTree = "<group>"; };
+		4990B7C921BB592D00041205 /* MyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		4990B7CA21BB592D00041205 /* MyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
+		4994D52F21F0A82B006F4C16 /* NoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteVC.h; sourceTree = "<group>"; };
+		4994D53021F0A82B006F4C16 /* NoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteVC.m; sourceTree = "<group>"; };
+		49A3BDCA21B235BB00123F30 /* meetingroom_reserve_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetingroom_reserve_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A3BDCD21B235BB00123F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A3BDCE21B235BB00123F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A3BDD421B235BB00123F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A3BDD621B235BD00123F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A3BDD921B235BD00123F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A3BDDB21B235BD00123F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A3BDDC21B235BD00123F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A3BDE221B235BD00123F30 /* meetingroom_reserve_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetingroom_reserve_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A3BDE621B235BD00123F30 /* meetingroom_reserve_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meetingroom_reserve_iOSTests.m; sourceTree = "<group>"; };
+		49A3BDE821B235BD00123F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A3BDED21B235BD00123F30 /* meetingroom_reserve_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetingroom_reserve_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A3BDF121B235BD00123F30 /* meetingroom_reserve_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meetingroom_reserve_iOSUITests.m; sourceTree = "<group>"; };
+		49A3BDF321B235BD00123F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A3BE0021B25B3500123F30 /* LogInVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInVC.h; sourceTree = "<group>"; };
+		49A3BE0121B25B3500123F30 /* LogInVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInVC.m; sourceTree = "<group>"; };
+		49A94B1421F0B0B600DA1594 /* CardsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsVC.h; sourceTree = "<group>"; };
+		49A94B1521F0B0B600DA1594 /* CardsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsVC.m; sourceTree = "<group>"; };
+		49A94B1721F0B0C400DA1594 /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		49A94B1821F0B0C400DA1594 /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		49B1630A2249B7EE00D8FA72 /* MyReserveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyReserveVC.h; sourceTree = "<group>"; };
+		49B1630B2249B7EE00D8FA72 /* MyReserveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReserveVC.m; sourceTree = "<group>"; };
+		49B1630D2249C3CB00D8FA72 /* SignInOnceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInOnceVC.h; sourceTree = "<group>"; };
+		49B1630E2249C3CB00D8FA72 /* SignInOnceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInOnceVC.m; sourceTree = "<group>"; };
+		49B4CBDB21B26AD000CD9591 /* UIImage+XG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XG.h"; sourceTree = "<group>"; };
+		49B4CBDC21B26AD000CD9591 /* UIImage+XG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XG.m"; sourceTree = "<group>"; };
+		49C7A24121FAE49E00C7CEBF /* PrivacyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyVC.h; sourceTree = "<group>"; };
+		49C7A24221FAE49E00C7CEBF /* PrivacyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyVC.m; sourceTree = "<group>"; };
+		49C7A24421FAE5C500C7CEBF /* GenralVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenralVC.h; sourceTree = "<group>"; };
+		49C7A24521FAE5C500C7CEBF /* GenralVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenralVC.m; sourceTree = "<group>"; };
+		49C7A24721FAE5D400C7CEBF /* AboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		49C7A24821FAE5D400C7CEBF /* AboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		49D13E3422460FCB00EAF8AB /* DoReserveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoReserveVC.h; sourceTree = "<group>"; };
+		49D13E3522460FCB00EAF8AB /* DoReserveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoReserveVC.m; sourceTree = "<group>"; };
+		49D13E3722462A0700EAF8AB /* CheckReserveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckReserveVC.h; sourceTree = "<group>"; };
+		49D13E3822462A0700EAF8AB /* CheckReserveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckReserveVC.m; sourceTree = "<group>"; };
+		49D58F0B21F6E8A200E0B714 /* SelectPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhotoManager.h; sourceTree = "<group>"; };
+		49D58F0C21F6E8A300E0B714 /* SelectPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoManager.m; sourceTree = "<group>"; };
+		49DB0C8A22355429006FE2EB /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		49DB0C8B22355429006FE2EB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		49DB0C8C22355429006FE2EB /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		49DB0C8D22355429006FE2EB /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		49DB0C8E22355429006FE2EB /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		49DB0C8F22355429006FE2EB /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		49DB0C9022355429006FE2EB /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		49DB0C9122355429006FE2EB /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		49DB0C9222355429006FE2EB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		49DB0C9322355429006FE2EB /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A3BDC721B235BB00123F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDDF21B235BD00123F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDEA21B235BD00123F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490A4FB621B50654004836D3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				490A4FB921B5067F004836D3 /* Controllers */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		490A4FB921B5067F004836D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				490A4FBD21B506E4004836D3 /* SignInVC.h */,
+				490A4FBE21B506E4004836D3 /* SignInVC.m */,
+				490A4FC321B509A9004836D3 /* SignInNav.h */,
+				490A4FC421B509A9004836D3 /* SignInNav.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4935F74D2235EEE400544CB1 /* SetUserName */ = {
+			isa = PBXGroup;
+			children = (
+				4935F74E2235EF0200544CB1 /* Controller */,
+			);
+			path = SetUserName;
+			sourceTree = "<group>";
+		};
+		4935F74E2235EF0200544CB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4935F74F2235EF2200544CB1 /* SetUserNameVC.h */,
+				4935F7502235EF2200544CB1 /* SetUserNameVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494621632249D8A500F0899B /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				494621642249D8A500F0899B /* FSCalendarCollectionView.m */,
+				494621652249D8A500F0899B /* FSCalendarWeekdayView.h */,
+				494621662249D8A500F0899B /* FSCalendarCollectionViewLayout.h */,
+				494621672249D8A500F0899B /* FSCalendarDelegationProxy.m */,
+				494621682249D8A500F0899B /* FSCalendarExtensions.h */,
+				494621692249D8A500F0899B /* FSCalendarDelegationFactory.m */,
+				4946216A2249D8A500F0899B /* FSCalendarSeparatorDecorationView.h */,
+				4946216B2249D8A500F0899B /* FSCalendarCalculator.h */,
+				4946216C2249D8A500F0899B /* FSCalendarHeaderView.h */,
+				4946216D2249D8A500F0899B /* FSCalendarConstants.h */,
+				4946216E2249D8A500F0899B /* FSCalendarAppearance.h */,
+				4946216F2249D8A500F0899B /* FSCalendarTransitionCoordinator.h */,
+				494621702249D8A500F0899B /* FSCalendarCell.m */,
+				494621712249D8A500F0899B /* FSCalendarStickyHeader.m */,
+				494621722249D8A500F0899B /* FSCalendar.m */,
+				494621732249D8A500F0899B /* FSCalendarCollectionViewLayout.m */,
+				494621742249D8A500F0899B /* FSCalendarWeekdayView.m */,
+				494621752249D8A500F0899B /* FSCalendarCollectionView.h */,
+				494621762249D8A500F0899B /* FSCalendarDynamicHeader.h */,
+				494621772249D8A500F0899B /* FSCalendarSeparatorDecorationView.m */,
+				494621782249D8A500F0899B /* FSCalendarDelegationFactory.h */,
+				494621792249D8A500F0899B /* FSCalendarExtensions.m */,
+				4946217A2249D8A500F0899B /* FSCalendarDelegationProxy.h */,
+				4946217B2249D8A500F0899B /* FSCalendarConstants.m */,
+				4946217C2249D8A500F0899B /* FSCalendarCalculator.m */,
+				4946217D2249D8A500F0899B /* FSCalendarHeaderView.m */,
+				4946217E2249D8A500F0899B /* FSCalendarStickyHeader.h */,
+				4946217F2249D8A500F0899B /* FSCalendar.h */,
+				494621802249D8A500F0899B /* FSCalendarCell.h */,
+				494621812249D8A500F0899B /* FSCalendarTransitionCoordinator.m */,
+				494621832249D8A500F0899B /* FSCalendarAppearance.m */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		494B07D82248763000F5A7F5 /* MultiAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				494B07D92248763000F5A7F5 /* MultiBaseView.m */,
+				494B07DA2248763000F5A7F5 /* UIView+Extension.h */,
+				494B07DB2248763000F5A7F5 /* MultiSelectCell.xib */,
+				494B07DC2248763000F5A7F5 /* MultiSelectHeaderView.m */,
+				494B07DD2248763000F5A7F5 /* MultiSelectCell.m */,
+				494B07DE2248763000F5A7F5 /* MultiSelectView.m */,
+				494B07DF2248763000F5A7F5 /* image */,
+				494B07E22248763000F5A7F5 /* MultiBaseView.h */,
+				494B07E32248763000F5A7F5 /* MultiSelectCell.h */,
+				494B07E42248763000F5A7F5 /* MultiSelectHeaderView.h */,
+				494B07E52248763000F5A7F5 /* UIView+Extension.m */,
+				494B07E62248763000F5A7F5 /* MultiSelectView.h */,
+			);
+			path = MultiAlertView;
+			sourceTree = "<group>";
+		};
+		494B07DF2248763000F5A7F5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				494B07E02248763000F5A7F5 /* cell_selected@3x.png */,
+				494B07E12248763000F5A7F5 /* cell_selected@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		494E044821FEFA1500CD1E6E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				494E044921FEFA1500CD1E6E /* AFSecurityPolicy.h */,
+				494E044A21FEFA1500CD1E6E /* AFNetworkReachabilityManager.h */,
+				494E044B21FEFA1500CD1E6E /* AFURLSessionManager.h */,
+				494E044C21FEFA1500CD1E6E /* AFURLRequestSerialization.h */,
+				494E044D21FEFA1500CD1E6E /* AFURLResponseSerialization.m */,
+				494E044E21FEFA1500CD1E6E /* AFHTTPSessionManager.m */,
+				494E044F21FEFA1500CD1E6E /* AFURLResponseSerialization.h */,
+				494E045021FEFA1500CD1E6E /* AFURLSessionManager.m */,
+				494E045121FEFA1500CD1E6E /* AFURLRequestSerialization.m */,
+				494E045221FEFA1500CD1E6E /* AFNetworking.h */,
+				494E045321FEFA1500CD1E6E /* AFNetworkReachabilityManager.m */,
+				494E045421FEFA1500CD1E6E /* AFSecurityPolicy.m */,
+				494E045521FEFA1500CD1E6E /* AFCompatibilityMacros.h */,
+				494E045621FEFA1500CD1E6E /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4959050B21F04F61009B2F9C /* VerificationCode */ = {
+			isa = PBXGroup;
+			children = (
+				4959050D21F04F8D009B2F9C /* Views */,
+				4959050E21F04F9C009B2F9C /* Controller */,
+			);
+			path = VerificationCode;
+			sourceTree = "<group>";
+		};
+		4959050D21F04F8D009B2F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4959051221F05D48009B2F9C /* VerificationCodeView.h */,
+				4959051321F05D48009B2F9C /* VerificationCodeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4959050E21F04F9C009B2F9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4959050F21F04FD2009B2F9C /* VerificationCodeVC.h */,
+				4959051021F04FD2009B2F9C /* VerificationCodeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49753B8721F1D27C003ACE0C /* SetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				49753B8821F1D293003ACE0C /* Controller */,
+			);
+			path = SetPassword;
+			sourceTree = "<group>";
+		};
+		49753B8821F1D293003ACE0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49753B8B21F1D2C0003ACE0C /* SetPasswordVC.h */,
+				49753B8C21F1D2C0003ACE0C /* SetPasswordVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4990B7AC21BB493E00041205 /* ForgetPasspord */ = {
+			isa = PBXGroup;
+			children = (
+				4990B7AF21BB497100041205 /* Controllers */,
+			);
+			path = ForgetPasspord;
+			sourceTree = "<group>";
+		};
+		4990B7AF21BB497100041205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4990B7B621BB4A9100041205 /* ForgetPwdVC.h */,
+				4990B7B721BB4A9100041205 /* ForgetPwdVC.m */,
+				4990B7B921BB4AAA00041205 /* ForgetPwdNav.h */,
+				4990B7BA21BB4AAA00041205 /* ForgetPwdNav.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4990B7BC21BB4EA900041205 /* Reserve */ = {
+			isa = PBXGroup;
+			children = (
+				4990B7BE21BB4ED100041205 /* Views */,
+				4990B7BD21BB4EC800041205 /* Controllers */,
+			);
+			path = Reserve;
+			sourceTree = "<group>";
+		};
+		4990B7BD21BB4EC800041205 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4990B7C021BB4F0000041205 /* ReserveTabbarController.h */,
+				4990B7C121BB4F0000041205 /* ReserveTabbarController.m */,
+				4990B7C321BB591200041205 /* MeetingVC.h */,
+				4990B7C421BB591200041205 /* MeetingVC.m */,
+				4990B7C621BB591F00041205 /* ReserveVC.h */,
+				4990B7C721BB591F00041205 /* ReserveVC.m */,
+				4990B7C921BB592D00041205 /* MyVC.h */,
+				4990B7CA21BB592D00041205 /* MyVC.m */,
+				494621942249D90400F0899B /* CalendarVC.h */,
+				494621952249D90400F0899B /* CalendarVC.m */,
+				4959051621F06B7D009B2F9C /* PersonalInfoVC.h */,
+				4959051721F06B7D009B2F9C /* PersonalInfoVC.m */,
+				4994D52F21F0A82B006F4C16 /* NoteVC.h */,
+				4994D53021F0A82B006F4C16 /* NoteVC.m */,
+				49A94B1421F0B0B600DA1594 /* CardsVC.h */,
+				49A94B1521F0B0B600DA1594 /* CardsVC.m */,
+				4946214C2249CEEE00F0899B /* ManageMeetingVC.h */,
+				4946214D2249CEEE00F0899B /* ManageMeetingVC.m */,
+				4946214F2249D2A900F0899B /* ManageDetailsVC.h */,
+				494621502249D2A900F0899B /* ManageDetailsVC.m */,
+				49A94B1721F0B0C400DA1594 /* SettingsVC.h */,
+				49A94B1821F0B0C400DA1594 /* SettingsVC.m */,
+				49C7A24121FAE49E00C7CEBF /* PrivacyVC.h */,
+				49C7A24221FAE49E00C7CEBF /* PrivacyVC.m */,
+				49C7A24421FAE5C500C7CEBF /* GenralVC.h */,
+				49C7A24521FAE5C500C7CEBF /* GenralVC.m */,
+				49C7A24721FAE5D400C7CEBF /* AboutVC.h */,
+				49C7A24821FAE5D400C7CEBF /* AboutVC.m */,
+				496978F5224A124800B3DAE2 /* MeetingRecodVC.h */,
+				496978F6224A124800B3DAE2 /* MeetingRecodVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4990B7BE21BB4ED100041205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4937812D21F8410500E52F52 /* YCPickerView.h */,
+				4937812E21F8410500E52F52 /* YCPickerView.m */,
+				49402CE221BD02A0004F9CCE /* MyCell.h */,
+				49402CE321BD02A0004F9CCE /* MyCell.m */,
+				49D58F0B21F6E8A200E0B714 /* SelectPhotoManager.h */,
+				49D58F0C21F6E8A300E0B714 /* SelectPhotoManager.m */,
+				4937813121F84D6B00E52F52 /* DataPickerView.h */,
+				4937813221F84D6B00E52F52 /* DataPickerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A3BDC121B235BB00123F30 = {
+			isa = PBXGroup;
+			children = (
+				49A3BDCC21B235BB00123F30 /* meetingroom_reserve_iOS */,
+				49A3BDE521B235BD00123F30 /* meetingroom_reserve_iOSTests */,
+				49A3BDF021B235BD00123F30 /* meetingroom_reserve_iOSUITests */,
+				49A3BDCB21B235BB00123F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A3BDCB21B235BB00123F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A3BDCA21B235BB00123F30 /* meetingroom_reserve_iOS.app */,
+				49A3BDE221B235BD00123F30 /* meetingroom_reserve_iOSTests.xctest */,
+				49A3BDED21B235BD00123F30 /* meetingroom_reserve_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A3BDCC21B235BB00123F30 /* meetingroom_reserve_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				494621632249D8A500F0899B /* FSCalendar */,
+				49DB0C8922355429006FE2EB /* SVProgressHUD */,
+				494E044821FEFA1500CD1E6E /* AFNetworking */,
+				49B163082249B7A700D8FA72 /* MyReserve */,
+				49D13E3222460F7500EAF8AB /* DoReserve */,
+				4990B7BC21BB4EA900041205 /* Reserve */,
+				4935F74D2235EEE400544CB1 /* SetUserName */,
+				49753B8721F1D27C003ACE0C /* SetPassword */,
+				4959050B21F04F61009B2F9C /* VerificationCode */,
+				4990B7AC21BB493E00041205 /* ForgetPasspord */,
+				490A4FB621B50654004836D3 /* SignIn */,
+				49A3BDFF21B25AFF00123F30 /* LogIn */,
+				49A3BDCD21B235BB00123F30 /* AppDelegate.h */,
+				49A3BDCE21B235BB00123F30 /* AppDelegate.m */,
+				49A3BDD321B235BB00123F30 /* Main.storyboard */,
+				49A3BDD621B235BD00123F30 /* Assets.xcassets */,
+				49A3BDD821B235BD00123F30 /* LaunchScreen.storyboard */,
+				49A3BDDB21B235BD00123F30 /* Info.plist */,
+				49A3BDDC21B235BD00123F30 /* main.m */,
+			);
+			path = meetingroom_reserve_iOS;
+			sourceTree = "<group>";
+		};
+		49A3BDE521B235BD00123F30 /* meetingroom_reserve_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				49A3BDE621B235BD00123F30 /* meetingroom_reserve_iOSTests.m */,
+				49A3BDE821B235BD00123F30 /* Info.plist */,
+			);
+			path = meetingroom_reserve_iOSTests;
+			sourceTree = "<group>";
+		};
+		49A3BDF021B235BD00123F30 /* meetingroom_reserve_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49A3BDF121B235BD00123F30 /* meetingroom_reserve_iOSUITests.m */,
+				49A3BDF321B235BD00123F30 /* Info.plist */,
+			);
+			path = meetingroom_reserve_iOSUITests;
+			sourceTree = "<group>";
+		};
+		49A3BDFF21B25AFF00123F30 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				49A3BE0321B25B4100123F30 /* Views */,
+				49A3BE0521B25B5300123F30 /* Controller */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		49A3BE0321B25B4100123F30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49B4CBDB21B26AD000CD9591 /* UIImage+XG.h */,
+				49B4CBDC21B26AD000CD9591 /* UIImage+XG.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49A3BE0521B25B5300123F30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49A3BE0021B25B3500123F30 /* LogInVC.h */,
+				49A3BE0121B25B3500123F30 /* LogInVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49B163082249B7A700D8FA72 /* MyReserve */ = {
+			isa = PBXGroup;
+			children = (
+				49B163092249B7CA00D8FA72 /* Controllers */,
+			);
+			path = MyReserve;
+			sourceTree = "<group>";
+		};
+		49B163092249B7CA00D8FA72 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49B1630A2249B7EE00D8FA72 /* MyReserveVC.h */,
+				49B1630B2249B7EE00D8FA72 /* MyReserveVC.m */,
+				494621492249C8C500F0899B /* MeetingDetailVC.h */,
+				4946214A2249C8C500F0899B /* MeetingDetailVC.m */,
+				49B1630D2249C3CB00D8FA72 /* SignInOnceVC.h */,
+				49B1630E2249C3CB00D8FA72 /* SignInOnceVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49D13E3222460F7500EAF8AB /* DoReserve */ = {
+			isa = PBXGroup;
+			children = (
+				494B07D82248763000F5A7F5 /* MultiAlertView */,
+				49D13E3322460F9C00EAF8AB /* Controllers */,
+			);
+			path = DoReserve;
+			sourceTree = "<group>";
+		};
+		49D13E3322460F9C00EAF8AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49D13E3422460FCB00EAF8AB /* DoReserveVC.h */,
+				49D13E3522460FCB00EAF8AB /* DoReserveVC.m */,
+				495CF06C224901AE00D80204 /* ChooseRoomVC.h */,
+				495CF06D224901AE00D80204 /* ChooseRoomVC.m */,
+				49D13E3722462A0700EAF8AB /* CheckReserveVC.h */,
+				49D13E3822462A0700EAF8AB /* CheckReserveVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49DB0C8922355429006FE2EB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				49DB0C8A22355429006FE2EB /* SVRadialGradientLayer.m */,
+				49DB0C8B22355429006FE2EB /* SVIndefiniteAnimatedView.h */,
+				49DB0C8C22355429006FE2EB /* SVProgressHUD.h */,
+				49DB0C8D22355429006FE2EB /* SVProgressAnimatedView.m */,
+				49DB0C8E22355429006FE2EB /* SVProgressHUD-Prefix.pch */,
+				49DB0C8F22355429006FE2EB /* SVRadialGradientLayer.h */,
+				49DB0C9022355429006FE2EB /* SVProgressHUD.m */,
+				49DB0C9122355429006FE2EB /* SVIndefiniteAnimatedView.m */,
+				49DB0C9222355429006FE2EB /* SVProgressHUD.bundle */,
+				49DB0C9322355429006FE2EB /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A3BDC921B235BB00123F30 /* meetingroom_reserve_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A3BDF621B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOS" */;
+			buildPhases = (
+				49A3BDC621B235BB00123F30 /* Sources */,
+				49A3BDC721B235BB00123F30 /* Frameworks */,
+				49A3BDC821B235BB00123F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meetingroom_reserve_iOS;
+			productName = meetingroom_reserve_iOS;
+			productReference = 49A3BDCA21B235BB00123F30 /* meetingroom_reserve_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49A3BDE121B235BD00123F30 /* meetingroom_reserve_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A3BDF921B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOSTests" */;
+			buildPhases = (
+				49A3BDDE21B235BD00123F30 /* Sources */,
+				49A3BDDF21B235BD00123F30 /* Frameworks */,
+				49A3BDE021B235BD00123F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A3BDE421B235BD00123F30 /* PBXTargetDependency */,
+			);
+			name = meetingroom_reserve_iOSTests;
+			productName = meetingroom_reserve_iOSTests;
+			productReference = 49A3BDE221B235BD00123F30 /* meetingroom_reserve_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49A3BDEC21B235BD00123F30 /* meetingroom_reserve_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A3BDFC21B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOSUITests" */;
+			buildPhases = (
+				49A3BDE921B235BD00123F30 /* Sources */,
+				49A3BDEA21B235BD00123F30 /* Frameworks */,
+				49A3BDEB21B235BD00123F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A3BDEF21B235BD00123F30 /* PBXTargetDependency */,
+			);
+			name = meetingroom_reserve_iOSUITests;
+			productName = meetingroom_reserve_iOSUITests;
+			productReference = 49A3BDED21B235BD00123F30 /* meetingroom_reserve_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A3BDC221B235BB00123F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "张文轩";
+				TargetAttributes = {
+					49A3BDC921B235BB00123F30 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49A3BDE121B235BD00123F30 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A3BDC921B235BB00123F30;
+					};
+					49A3BDEC21B235BD00123F30 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49A3BDC921B235BB00123F30;
+					};
+				};
+			};
+			buildConfigurationList = 49A3BDC521B235BB00123F30 /* Build configuration list for PBXProject "meetingroom_reserve_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A3BDC121B235BB00123F30;
+			productRefGroup = 49A3BDCB21B235BB00123F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A3BDC921B235BB00123F30 /* meetingroom_reserve_iOS */,
+				49A3BDE121B235BD00123F30 /* meetingroom_reserve_iOSTests */,
+				49A3BDEC21B235BD00123F30 /* meetingroom_reserve_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A3BDC821B235BB00123F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494B07E82248763000F5A7F5 /* MultiSelectCell.xib in Resources */,
+				49A3BDDA21B235BD00123F30 /* LaunchScreen.storyboard in Resources */,
+				494B07EC2248763000F5A7F5 /* cell_selected@3x.png in Resources */,
+				49A3BDD721B235BD00123F30 /* Assets.xcassets in Resources */,
+				49A3BDD521B235BB00123F30 /* Main.storyboard in Resources */,
+				494B07ED2248763000F5A7F5 /* cell_selected@2x.png in Resources */,
+				49DB0C982235542A006FE2EB /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDE021B235BD00123F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDEB21B235BD00123F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A3BDC621B235BB00123F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4959051421F05D48009B2F9C /* VerificationCodeView.m in Sources */,
+				494E045B21FEFA1500CD1E6E /* AFNetworkReachabilityManager.m in Sources */,
+				494B07EE2248763000F5A7F5 /* UIView+Extension.m in Sources */,
+				49D13E3622460FCB00EAF8AB /* DoReserveVC.m in Sources */,
+				49D58F0D21F6E8A300E0B714 /* SelectPhotoManager.m in Sources */,
+				4937813321F84D6B00E52F52 /* DataPickerView.m in Sources */,
+				49A94B1921F0B0C400DA1594 /* SettingsVC.m in Sources */,
+				494621902249D8A500F0899B /* FSCalendarHeaderView.m in Sources */,
+				4990B7BB21BB4AAA00041205 /* ForgetPwdNav.m in Sources */,
+				494E045921FEFA1500CD1E6E /* AFURLSessionManager.m in Sources */,
+				49A3BDDD21B235BD00123F30 /* main.m in Sources */,
+				4994D53121F0A82B006F4C16 /* NoteVC.m in Sources */,
+				49DB0C952235542A006FE2EB /* SVProgressAnimatedView.m in Sources */,
+				49A3BDCF21B235BB00123F30 /* AppDelegate.m in Sources */,
+				49DB0C972235542A006FE2EB /* SVIndefiniteAnimatedView.m in Sources */,
+				49DB0C942235542A006FE2EB /* SVRadialGradientLayer.m in Sources */,
+				4959051821F06B7D009B2F9C /* PersonalInfoVC.m in Sources */,
+				494621512249D2A900F0899B /* ManageDetailsVC.m in Sources */,
+				4937812F21F8410500E52F52 /* YCPickerView.m in Sources */,
+				4946218F2249D8A500F0899B /* FSCalendarCalculator.m in Sources */,
+				4935F7512235EF2200544CB1 /* SetUserNameVC.m in Sources */,
+				494B07EA2248763000F5A7F5 /* MultiSelectCell.m in Sources */,
+				49C7A24621FAE5C500C7CEBF /* GenralVC.m in Sources */,
+				4990B7C821BB591F00041205 /* ReserveVC.m in Sources */,
+				495CF06E224901AE00D80204 /* ChooseRoomVC.m in Sources */,
+				494621862249D8A500F0899B /* FSCalendarDelegationFactory.m in Sources */,
+				494621912249D8A500F0899B /* FSCalendarTransitionCoordinator.m in Sources */,
+				4946218D2249D8A500F0899B /* FSCalendarExtensions.m in Sources */,
+				496978F7224A124800B3DAE2 /* MeetingRecodVC.m in Sources */,
+				49D13E3922462A0700EAF8AB /* CheckReserveVC.m in Sources */,
+				4990B7C221BB4F0000041205 /* ReserveTabbarController.m in Sources */,
+				494621962249D90400F0899B /* CalendarVC.m in Sources */,
+				494621882249D8A500F0899B /* FSCalendarStickyHeader.m in Sources */,
+				49DB0C962235542A006FE2EB /* SVProgressHUD.m in Sources */,
+				49402CE421BD02A0004F9CCE /* MyCell.m in Sources */,
+				49C7A24921FAE5D400C7CEBF /* AboutVC.m in Sources */,
+				4959051121F04FD2009B2F9C /* VerificationCodeVC.m in Sources */,
+				490A4FBF21B506E4004836D3 /* SignInVC.m in Sources */,
+				49B4CBDD21B26AD000CD9591 /* UIImage+XG.m in Sources */,
+				49B1630F2249C3CB00D8FA72 /* SignInOnceVC.m in Sources */,
+				494B07E72248763000F5A7F5 /* MultiBaseView.m in Sources */,
+				494B07EB2248763000F5A7F5 /* MultiSelectView.m in Sources */,
+				4946218B2249D8A500F0899B /* FSCalendarWeekdayView.m in Sources */,
+				4946214B2249C8C500F0899B /* MeetingDetailVC.m in Sources */,
+				4946214E2249CEEE00F0899B /* ManageMeetingVC.m in Sources */,
+				494B07E92248763000F5A7F5 /* MultiSelectHeaderView.m in Sources */,
+				494621932249D8A500F0899B /* FSCalendarAppearance.m in Sources */,
+				4946218E2249D8A500F0899B /* FSCalendarConstants.m in Sources */,
+				4946218A2249D8A500F0899B /* FSCalendarCollectionViewLayout.m in Sources */,
+				4990B7C521BB591200041205 /* MeetingVC.m in Sources */,
+				494E045821FEFA1500CD1E6E /* AFHTTPSessionManager.m in Sources */,
+				494E045721FEFA1500CD1E6E /* AFURLResponseSerialization.m in Sources */,
+				4990B7CB21BB592D00041205 /* MyVC.m in Sources */,
+				494621872249D8A500F0899B /* FSCalendarCell.m in Sources */,
+				49A94B1621F0B0B600DA1594 /* CardsVC.m in Sources */,
+				49A3BE0221B25B3500123F30 /* LogInVC.m in Sources */,
+				49B1630C2249B7EE00D8FA72 /* MyReserveVC.m in Sources */,
+				490A4FC521B509A9004836D3 /* SignInNav.m in Sources */,
+				49C7A24321FAE49E00C7CEBF /* PrivacyVC.m in Sources */,
+				494621842249D8A500F0899B /* FSCalendarCollectionView.m in Sources */,
+				494621892249D8A500F0899B /* FSCalendar.m in Sources */,
+				494621852249D8A500F0899B /* FSCalendarDelegationProxy.m in Sources */,
+				494E045C21FEFA1500CD1E6E /* AFSecurityPolicy.m in Sources */,
+				494E045A21FEFA1500CD1E6E /* AFURLRequestSerialization.m in Sources */,
+				4946218C2249D8A500F0899B /* FSCalendarSeparatorDecorationView.m in Sources */,
+				49753B8D21F1D2C0003ACE0C /* SetPasswordVC.m in Sources */,
+				4990B7B821BB4A9100041205 /* ForgetPwdVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDDE21B235BD00123F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3BDE721B235BD00123F30 /* meetingroom_reserve_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A3BDE921B235BD00123F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A3BDF221B235BD00123F30 /* meetingroom_reserve_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49A3BDE421B235BD00123F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A3BDC921B235BB00123F30 /* meetingroom_reserve_iOS */;
+			targetProxy = 49A3BDE321B235BD00123F30 /* PBXContainerItemProxy */;
+		};
+		49A3BDEF21B235BD00123F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49A3BDC921B235BB00123F30 /* meetingroom_reserve_iOS */;
+			targetProxy = 49A3BDEE21B235BD00123F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49A3BDD321B235BB00123F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A3BDD421B235BB00123F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A3BDD821B235BD00123F30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A3BDD921B235BD00123F30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A3BDF421B235BD00123F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A3BDF521B235BD00123F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A3BDF721B235BD00123F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49A3BDF821B235BD00123F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49A3BDFA21B235BD00123F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meetingroom_reserve_iOS.app/meetingroom_reserve_iOS";
+			};
+			name = Debug;
+		};
+		49A3BDFB21B235BD00123F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meetingroom_reserve_iOS.app/meetingroom_reserve_iOS";
+			};
+			name = Release;
+		};
+		49A3BDFD21B235BD00123F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meetingroom_reserve_iOS;
+			};
+			name = Debug;
+		};
+		49A3BDFE21B235BD00123F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = meetingroom_reserve_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zwx.meetingroom-reserve-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meetingroom_reserve_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A3BDC521B235BB00123F30 /* Build configuration list for PBXProject "meetingroom_reserve_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3BDF421B235BD00123F30 /* Debug */,
+				49A3BDF521B235BD00123F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A3BDF621B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3BDF721B235BD00123F30 /* Debug */,
+				49A3BDF821B235BD00123F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A3BDF921B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3BDFA21B235BD00123F30 /* Debug */,
+				49A3BDFB21B235BD00123F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A3BDFC21B235BD00123F30 /* Build configuration list for PBXNativeTarget "meetingroom_reserve_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A3BDFD21B235BD00123F30 /* Debug */,
+				49A3BDFE21B235BD00123F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A3BDC221B235BB00123F30 /* Project object */;
+}

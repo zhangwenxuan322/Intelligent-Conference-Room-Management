@@ -1,0 +1,45 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Gender Estimation Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Gender Estimation Library provides the interfaces to estimate gender.
+
+Publish date:
+10/12/2017
+
+
+Version:
+1.1.0.15
+
+
+Supported platform:
+IOS_ARMV7,IOS_ARM64
+
+Compile Options:
+Enable Bitcode=No
+
+Dependency:
+platform
+
+Known issues:
+None
+
+File List:
+|---arcsoft_fsdk_base.framework			       		SDK base dynamic library framework
+|---arcsoft_fsdk_gender_estimation.framework		       	SDK dynamic library framework for gender estimation
+|---doc
+|   |---ARCSOFT_GENDER_ESTIMATION_DEVELOPER'S_GUIDE.PDF   	Developer's user guide document
+|---PLATFORM
+|   |---inc
+|   |    |---amcomdef.h                                		Head file for platform type definition                
+|   |    |---ammem.h                                   		Header file for platform memory management
+|   |    |---asvloffscreen.h                           		Header file for image format definition
+|   |    |---merror.h                                  		Header file for error definition
+|---samplecode
+|   |---gender_estimation_samplecode.cpp                	Sample codes
+|---releasenotes.txt                                 		This file.
+
+Change Logs:
+1.1.0.14--Initial Version
+

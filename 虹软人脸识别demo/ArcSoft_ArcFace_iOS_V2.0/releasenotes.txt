@@ -1,0 +1,37 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoftFace SDK 		                      //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoftFace SDK provides
+
+Publish date:
+11/07/2018
+
+Version:
+2.0.0.8
+
+Supported platform:
+arm64 armv7 armv7s
+
+Compile Options:
+default
+
+Dependency:
+None
+
+Known issues:
+None.
+
+File List:
+|---doc
+|   |---appledoc   		                       离线版appledoc文档
+|   |---ARCSOFT_FACE_SDK_DEVELOPER'S_GUIDE.PDF         开发说明文档
+|---lib
+|   |---ArcSoftFaceEngine.framework                    framework文件
+|---samplecode
+|   |---ArcSoftFaceEngineDemo                          示例代码
+|---releasenotes.txt                                   说明文件
+
+Change Logs:
+Initial version

@@ -1,0 +1,6 @@
+framework module arcsoft_fsdk_face_tracking {
+  umbrella header "arcsoft_fsdk_face_tracking.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module arcsoft_fsdk_face_recognition {
+  umbrella header "arcsoft_fsdk_face_recognition.h"
+
+  export *
+  module * { export * }
+}

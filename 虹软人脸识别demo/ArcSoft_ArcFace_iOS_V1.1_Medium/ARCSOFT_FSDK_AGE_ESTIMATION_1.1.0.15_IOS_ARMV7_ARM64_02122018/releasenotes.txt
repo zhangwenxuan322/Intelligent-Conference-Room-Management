@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Age Estimation Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Age Estimation Library provides the interfaces to estimate age.
+
+Publish date:
+10/12/2017
+
+
+Version:
+1.1.0.15
+
+
+Supported platform:
+IOS_ARMV7,IOS_ARM64
+
+Compile Options:
+Enable Bitcode=No
+
+Dependency:
+platform
+
+Known issues:
+None
+
+File List:
+|---arcsoft_fsdk_base.framework			       SDK base dynamic library framework
+|---arcsoft_fsdk_age_estimation.framework	       SDK dynamic library framework for age estimation
+|---doc
+|   |---ARCSOFT_AGE_ESTIMATION_DEVELOPER'S_GUIDE.PDF   Developer's user guide document
+|   |    | 
+|---PLATFORM
+|   |---inc
+|   |    |---amcomdef.h                                Head file for platform type definition                
+|   |    |---ammem.h                                   Header file for platform memory management
+|   |    |---asvloffscreen.h                           Header file for image format definition
+|   |    |---merror.h                                  Header file for error definition
+|---samplecode
+|   |---age_estimation_samplecode.cpp                  Sample codes
+|---releasenotes.txt                                   This file.
+
+Change Logs:
+1.1.0.14--Initial Version
+

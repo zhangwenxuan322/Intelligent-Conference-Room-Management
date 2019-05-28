@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////////////////////////////
+//                   ArcSoft Face Detection Library 		              //        
+////////////////////////////////////////// /////////////////////////////////////
+
+Introduction:
+ArcSoft Face Detection Library provides the interfaces to detect faces.
+
+Publish date:
+10/12/2017
+
+
+Version:
+1.1.0.284
+
+
+Supported platform:
+IOS_ARMV7,IOS_ARM64
+
+Compile Options:
+Enable Bitcode=No
+
+Dependency:
+platform
+
+Known issues:
+None
+
+File List:
+|---arcsoft_fsdk_base.framework			       	SDK base dynamic library framework
+|---arcsoft_fsdk_face_detection.framework	       	SDK dynamic library framework for face detection
+|---doc
+|   |---ARCSOFT_FACE_DETECTION_DEVELOPER'S_GUIDE.PDF   	Developer's user guide document
+|---PLATFORM
+|   |---inc
+|   |    |---amcomdef.h                                	Head file for platform type definition                
+|   |    |---ammem.h                                   	Header file for platform memory management
+|   |    |---asvloffscreen.h                           	Header file for image format definition
+|   |    |---merror.h                                  	Header file for error definition
+|---samplecode
+|   |---face_detection_samplecode.cpp                	Sample codes
+|---releasenotes.txt                                 	This file.
+
+Change Logs:
+1.0.0.267--Initial Version
+1.0.0.270--Extract SDK common functions to libarcsoft_fsdk_base.a
+
